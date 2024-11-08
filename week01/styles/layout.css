@@ -6,18 +6,25 @@ body {
 header {
     background-color:dimgray;
     grid-column: 1 / 4;
+    
+}
+
+h1 {
+    background-color:dimgray;
     text-align: left;
-    color: white; 
+    color: white;
+    height: 3cm;
+    padding: 1%;
 }
 
 .navigation {
 	list-style: none;
-    grid-column: 1 / 4;
 	background-color: black;
     display: flex;
     align-items: center;
     text-align: center;
     height: 2cm;
+    
 }
 .navigation a {
 	color: #eee;
