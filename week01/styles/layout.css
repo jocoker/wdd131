@@ -34,7 +34,7 @@ header {
 	text-decoration-color: yellow;
 }
   
-.main-content {
+.main {
     background: lightgray;
     grid-column: 1 / 3;
     grid-row: 3/4;
