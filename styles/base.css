@@ -25,6 +25,7 @@ main{
     margin: 0 auto;
     align-items: start;
     text-align: left;
+    max-width: 100%;
 }
 
 .about-me,
