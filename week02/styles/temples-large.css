@@ -1,4 +1,4 @@
-@media screen and (min-width: 651px) {
+@media screen and (min-width: 700px) {
 
     body{
         font-family: "Roboto", sans-serif;
@@ -16,7 +16,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
-        background-color: #5885b8;
+        background-color: #5fa5f5;
     }
     
     main {
@@ -48,13 +48,38 @@
         flex-direction:column;
         align-items:center;
     }
-    
-    nav{
-        display: flex;
-        list-style-type: none;
-        gap: 1rem;
-        align-items: center;    
+	
+	#menu:before {
+        content: "X";
     }
+
+	#menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+    .navigation {
+		display: flex;
+	}
+	.navigation a {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation a:hover {
+        text-decoration: underline;
+        
+	}
+	#menu {
+		display: none;
+	}
     
     footer {
         display:flex;
@@ -62,7 +87,7 @@
         align-items:center;
         margin:0;
         max-height:100vh;
-        background-color: #5885b8;
+        background-color: #5fa5f5;
     }
     
 }    
