@@ -5,43 +5,42 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Jordan Coker">
         <meta name="author" content="Jordan Coker">
-        <link rel="stylesheet" href="styles/temples.css">
-        <link rel="stylesheet" href="styles/temples-large.css">
+        <link rel="stylesheet" href="styles/filtered-temples.css">
+        <link rel="stylesheet" href="styles/filtered-temples-large.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <script  defer src="scripts/temples.js"></script>
+        <script  defer src="scripts/filtered-temples.js"></script>
         <title>WDD 131 - Temples</title>
     </head>
-<body>
-    <header>
-        <h1>WDD 131 - Temples</h1>
-        
-        <a id="menu" href="#"></a>
-        <nav>
-            <ul class="navigation">
-               <a href="">Home</a>
-               <a href="">Old</a>
-               <a href="">New</a>
-               <a href="">Large</a>
-               <a href="">Smalls</a>
-            </ul>
-
-        </nav>
-    </header>
-
-    <main>
-        <h2 class="title">Home</h2>
-        <div class="cards-container">
-           
-        </div>
-        
-    </main> 
-
-    <footer>
-        <p id="year"></p>
-        <p id="lastModified"></p>
-    </footer>
-    
-</body>
+    <body>
+        <header>
+            <h1 class="logo">Filtered Temple Album</h1>
+            <a href="#"  class="nav-button" id="nav-button">
+                <span class="ham"></span>
+                <span class="ham"></span>
+                <span class="ham"></span>   
+            </a>
+            <nav>
+                <ul class="navi">
+                    <li class="navMenu"><a id="home"  href="#">Home</a></li>
+                    <li class="navMenu"><a id="old" href="#">Old</a></li>
+                    <li class="navMenu"><a id="new" href="#">New</a></li>
+                    <li class="navMenu"><a id="large" href="#">Large</a></li>
+                    <li class="navMenu"><a id="small" href="#">Small</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+                <h2 class="title">Home</h2>
+                <div class="cards-container">
+                   
+                </div>
+                
+        </main>
+        <footer>
+            <p>&copy; <span id="year"></span> Jordan Coker - Michigan, USA</p>
+            <p class="lastModif">Last modified: <span id="lastModif"></span></p>
+        </footer>
+    </body>
 </html>
