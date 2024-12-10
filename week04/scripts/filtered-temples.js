@@ -126,6 +126,7 @@ const temples = [
     area: 72000,
     imageUrl:
     "https://churchofjesuschristtemples.org/assets/img/temples/san-diego-california-temple/san-diego-california-temple-9060-main.jpg"
+    
   }
   
 ];
