@@ -11,8 +11,11 @@ document.querySelector('form').onsubmit = function (event) {
 };
 
 
-const year = document.querySelector("#year");
-year.textContent = new Date().getFullYear();
+const lastModifiedElement = document.getElementById("lastModified");
+const currentYearElement = document.getElementById("year");
 
-const lastModified = document.getElementById("lastModif")
-lastModified.textContent = document.lastModified;
+const currentYear = new Date().getFullYear();
+currentYearElement.textContent = `© ${currentYear} Jordan Coker - Michigan, USA`;
+
+const lastModifiedDate = document.lastModified;
+lastModifiedElement.textContent = `Last modified: ${lastModifiedDate}`;
