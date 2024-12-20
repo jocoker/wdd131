@@ -1,3 +1,12 @@
+const lastModifiedElement = document.getElementById("lastModified");
+const currentYearElement = document.getElementById("year");
+
+const currentYear = new Date().getFullYear();
+currentYearElement.textContent = `© ${currentYear} Jordan Coker - Michigan, USA`;
+
+const lastModifiedDate = document.lastModified;
+lastModifiedElement.textContent = `Last modified: ${lastModifiedDate}`;
+
 let reviewCount = parseInt(localStorage.getItem('reviewCount') || '0', 10);
 localStorage.setItem('reviewCount', reviewCount);
 
@@ -11,13 +20,5 @@ document.querySelector('form').onsubmit = function (event) {
 };
 
 
-const lastModifiedElement = document.getElementById("lastModified");
-const currentYearElement = document.getElementById("year");
-
-const currentYear = new Date().getFullYear();
-currentYearElement.textContent = `© ${currentYear} Jordan Coker - Michigan, USA`;
-
-const lastModifiedDate = document.lastModified;
-lastModifiedElement.textContent = `Last modified: ${lastModifiedDate}`;
 
 
