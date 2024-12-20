@@ -74,6 +74,10 @@ body {
     background-color: #bb99ff;
 }
 
+.container h2 {
+    text-align: center;
+}
+
 .form-group {
     border-radius: 20px;
     padding: 25px;
