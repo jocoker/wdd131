@@ -19,3 +19,5 @@ currentYearElement.textContent = `© ${currentYear} Jordan Coker - Michigan, USA
 
 const lastModifiedDate = document.lastModified;
 lastModifiedElement.textContent = `Last modified: ${lastModifiedDate}`;
+
+
