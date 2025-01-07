@@ -65,17 +65,20 @@ body{
 
 .navigation {
     flex-direction: row;
+    
 }
 
 .navigation a {
     display: block;
     flex: 1 1 100%;
+    
 }
 
  nav ul{
     display:flex;
     justify-content: space-between;
     display:none;
+    list-style-type: none;
  }
 
  header nav a {
