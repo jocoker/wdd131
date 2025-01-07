@@ -32,7 +32,7 @@ body{
   }
   .temple-pics{
     display: grid;
-    grid-template: auto;
+    grid-template-columns: auto;
     
   }
 
