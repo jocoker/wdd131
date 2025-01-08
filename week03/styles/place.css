@@ -30,6 +30,11 @@
         height: auto;
     }   
 
+    .picture img {
+        width: 100%;
+        height: auto;
+    }
+
     section {
         position: absolute;
         background-color: rgba(255, 255, 255, .9);

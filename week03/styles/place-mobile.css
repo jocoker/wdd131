@@ -18,6 +18,11 @@ img {
 
 }
 
+.picture img {
+    width: 100%;
+    height: auto;
+}
+
 header {
     display: block;
     text-align: center;
